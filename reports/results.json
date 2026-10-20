@@ -1,0 +1,125 @@
+{
+  "validation": {
+    "train_mape": 0.023791824134079115,
+    "test_mape": 0.03170912751826598,
+    "train_r2": 0.914451589789524,
+    "test_r2": 0.8431970067156209
+  },
+  "roi_by_version": {
+    "Uncalibrated": {
+      "paid_social": 3.456,
+      "programmatic": 3.615,
+      "paid_search": 3.653,
+      "affiliate": 5.172,
+      "online_video": 1.483
+    },
+    "+ Search holdout": {
+      "paid_social": 2.415,
+      "programmatic": 2.873,
+      "paid_search": 1.781,
+      "affiliate": 5.207,
+      "online_video": 1.437
+    },
+    "+ Affiliate holdout": {
+      "paid_social": 1.816,
+      "programmatic": 1.896,
+      "paid_search": 1.876,
+      "affiliate": 0.636,
+      "online_video": 1.543
+    },
+    "+ Search scale test": {
+      "paid_social": 2.0,
+      "programmatic": 0.0,
+      "paid_search": 1.541,
+      "affiliate": 0.754,
+      "online_video": 1.576
+    },
+    "True ROI": {
+      "paid_social": 2.1,
+      "programmatic": 1.2,
+      "paid_search": 1.5,
+      "affiliate": 0.8,
+      "online_video": 1.7
+    },
+    "Spend ($M)": {
+      "paid_social": 22.357,
+      "programmatic": 14.059,
+      "paid_search": 25.406,
+      "affiliate": 11.883,
+      "online_video": 10.12
+    }
+  },
+  "media_share_model": 0.15871258219409246,
+  "media_share_true": 0.18768258487143036,
+  "weekly_uplift": 145719.67158475518,
+  "plans": {
+    "Uncalibrated": {
+      "modeled_wk": 177120.69874595152,
+      "true_wk": -51561.57401947492
+    },
+    "+ Search holdout": {
+      "modeled_wk": 178116.92684743553,
+      "true_wk": -60885.989924891386
+    },
+    "+ Affiliate holdout": {
+      "modeled_wk": 157814.96407184273,
+      "true_wk": -8068.827291343259
+    },
+    "+ Search scale test": {
+      "modeled_wk": 145719.67158475518,
+      "true_wk": 34425.327759665975
+    }
+  },
+  "oracle_wk": 36772.501604483696,
+  "reallocation": {
+    "current_spend": {
+      "paid_social": 143316.513,
+      "programmatic": 90120.744,
+      "paid_search": 162856.705,
+      "affiliate": 76170.564,
+      "online_video": 64871.859
+    },
+    "optimized_spend": {
+      "paid_social": 186311.467,
+      "programmatic": 63084.521,
+      "paid_search": 150287.586,
+      "affiliate": 53319.395,
+      "online_video": 84333.417
+    },
+    "change_pct": {
+      "paid_social": 0.3,
+      "programmatic": -0.3,
+      "paid_search": -0.077,
+      "affiliate": -0.3,
+      "online_video": 0.3
+    },
+    "current_revenue": {
+      "paid_social": 289368.076,
+      "programmatic": 0.0,
+      "paid_search": 253696.391,
+      "affiliate": 60308.316,
+      "online_video": 110528.923
+    },
+    "optimized_revenue": {
+      "paid_social": 425612.338,
+      "programmatic": 0.0,
+      "paid_search": 246059.914,
+      "affiliate": 47930.983,
+      "online_video": 140018.143
+    },
+    "mroi_current": {
+      "paid_social": 3.168,
+      "programmatic": 0.0,
+      "paid_search": 0.587,
+      "affiliate": 0.488,
+      "online_video": 1.588
+    },
+    "mroi_optimized": {
+      "paid_social": 3.115,
+      "programmatic": 0.0,
+      "paid_search": 0.626,
+      "affiliate": 0.598,
+      "online_video": 1.435
+    }
+  }
+}

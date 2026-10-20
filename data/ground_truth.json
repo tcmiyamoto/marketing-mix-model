@@ -1,0 +1,58 @@
+{
+  "channels": {
+    "paid_social": {
+      "decay": 0.4,
+      "half_sat": 1.0,
+      "shape": 1.4,
+      "beta": 629203.0079276579,
+      "roi": 2.1,
+      "contribution": 46950489.60000001
+    },
+    "programmatic": {
+      "decay": 0.3,
+      "half_sat": 0.9,
+      "shape": 1.2,
+      "beta": 219694.61833391423,
+      "roi": 1.2,
+      "contribution": 16870603.200000003
+    },
+    "paid_search": {
+      "decay": 0.1,
+      "half_sat": 0.8,
+      "shape": 1.0,
+      "beta": 442608.1102146981,
+      "roi": 1.5,
+      "contribution": 38108469.0
+    },
+    "affiliate": {
+      "decay": 0.05,
+      "half_sat": 1.0,
+      "shape": 1.0,
+      "beta": 123009.5281203097,
+      "roi": 0.8,
+      "contribution": 9506086.399999999
+    },
+    "online_video": {
+      "decay": 0.7,
+      "half_sat": 0.7,
+      "shape": 1.6,
+      "beta": 225224.45368157106,
+      "roi": 1.7,
+      "contribution": 17204017.0
+    }
+  },
+  "lift_tests_true_values": [
+    {
+      "_true_incremental_revenue": 1850949.0,
+      "channel": "paid_search"
+    },
+    {
+      "_true_incremental_revenue": 496164.0,
+      "channel": "affiliate"
+    },
+    {
+      "_true_incremental_revenue": 0.487,
+      "channel": "paid_search"
+    }
+  ]
+}
